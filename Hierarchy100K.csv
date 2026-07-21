@@ -1,0 +1,331 @@
+TA0060_Road_L,RCS = 1,1
+TA0060_Road_L,RCS = 2,1
+TA0060_Road_L,RCS = 3,1
+TA0060_Road_L,RCS = 4 AND (NAM IS NOT NULL AND NAM <> ''),2
+TA0060_Road_L,RCS = 4 AND (NAM IS NULL OR NAM = ''),3
+TA0060_Road_L,RCS = 5,4
+TA0060_Road_L,RCS = 6,3
+TA0060_Road_L,RCS IS NULL OR RCS = 0,4
+TA0110_Track_L,,4
+TA0010_Rail_Line_L,,2
+TA0180_Kilometer_Post_P,,0
+UA0010_Powerline_L,,3
+DA0010_International_or_Country_Boundary_L,,1
+DA0040_State_Coverage_L,,1
+DA0060_Division_Coverage_L,,1
+DA0080_District_Jajahan_or_Sub_District_Coverage_Administrative_L,,1
+DA0086_Sub_district_Boundary_Administrative_L,,1
+DA0100_Mukim_Coverage_Administrative_L,,1
+DA0180_Section_Coverage_Administrative_L,,1
+ DA0200_Precinct_Coverage_L,,1
+DA0220_Local_Authority_Area_L,,1
+U_Telecom_Line_L,,2
+RA0070_Cutting_L,,3
+RA0080_Embankment_L,,3
+BJ0400_Fence_L,,4
+BJ0390_Wall_L,,4
+HH0190_Irrigation_Canal_L,,3
+HH0191_Irrigation_Canal_Edge_L,,0
+HH0040_River_L,,2
+HH0041_River_Bank_L,,0
+UC0110_Water_Pipeline_L,,2
+UD0080_Oil_Pipeline_L,,2
+UD0090_Gas_Pipeline_L,,2
+BA0010_Residential_Building_A,NAM IS NULL OR NAM = '',3
+BC0010_Industrial_Building_A,NAM IS NULL OR NAM = '',3
+BE0010_Educational_Building_A,NAM IS NULL OR NAM = '',3
+BA0010_Residential_Building_A,NAM IS NOT NULL AND NAM <> '',2
+BC0010_Industrial_Building_A,NAM IS NOT NULL AND NAM <> '',2
+BE0010_Educational_Building_A,NAM IS NOT NULL AND NAM <> '',2
+BF0010_Building_Of_Worship_A,,1
+BA0010_Residential_Building_P,NAM IS NULL OR NAM = '',4
+BC0010_Industrial_Building_P,NAM IS NULL OR NAM = '',4
+BE0010_Educational_Building_P,NAM IS NULL OR NAM = '',4
+BA0010_Residential_Building_P,NAM IS NOT NULL AND NAM <> '',2
+BC0010_Industrial_Building_P,NAM IS NOT NULL AND NAM <> '',2
+BE0010_Educational_Building_P,NAM IS NOT NULL AND NAM <> '',2
+BF0010_Building_Of_Worship_P,,1
+BB0010_Commercial_Building_A,NAM IS NULL OR NAM = '',3
+BB0030_Office_A,NAM IS NULL OR NAM = '',3
+BB0031_Shop_Office_Shop_House_A,NAM IS NULL OR NAM = '',3
+BB0040_Postal_and_Courier_Office_A,NAM IS NULL OR NAM = '',3
+BB0050_Bank_A,NAM IS NULL OR NAM = '',3
+BB0060_Commercial_Accomodation_A,NAM IS NULL OR NAM = '',3
+BB0070_Market_A,NAM IS NULL OR NAM = '',3
+BB0080_Shopping_Arcade_Complex_A,NAM IS NULL OR NAM = '',3
+BB0081_Hypermarket_Supermarket_A,NAM IS NULL OR NAM = '',3
+BB0082_Retail_A,NAM IS NULL OR NAM = '',3
+BB0090_Entertainment_Centre_A,NAM IS NULL OR NAM = '',3
+BB0100_Restaurant_A,NAM IS NULL OR NAM = '',3
+BB0999_Other_Commercial_Building_A,NAM IS NULL OR NAM = '',3
+BB0010_Commercial_Building_A,NAM IS NOT NULL AND NAM <> '',2
+BB0030_Office_A,NAM IS NOT NULL AND NAM <> '',2
+BB0031_Shop_Office_Shop_House_A,NAM IS NOT NULL AND NAM <> '',2
+BB0040_Postal_and_Courier_Office_A,NAM IS NOT NULL AND NAM <> '',2
+BB0050_Bank_A,NAM IS NOT NULL AND NAM <> '',2
+BB0060_Commercial_Accomodation_A,NAM IS NOT NULL AND NAM <> '',2
+BB0070_Market_A,NAM IS NOT NULL AND NAM <> '',2
+BB0080_Shopping_Arcade_Complex_A,NAM IS NOT NULL AND NAM <> '',2
+BB0081_Hypermarket_Supermarket_A,NAM IS NOT NULL AND NAM <> '',2
+BB0082_Retail_A,NAM IS NOT NULL AND NAM <> '',2
+BB0090_Entertainment_Centre_A,NAM IS NOT NULL AND NAM <> '',2
+BB0100_Restaurant_A,NAM IS NOT NULL AND NAM <> '',2
+BB0999_Other_Commercial_Building_A,NAM IS NOT NULL AND NAM <> '',2
+BB0010_Commercial_Building_P,NAM IS NULL OR NAM = '',4
+BB0030_Office_P,NAM IS NULL OR NAM = '',4
+BB0031_Shop_Office_Shop_House_P,NAM IS NULL OR NAM = '',4
+BB0040_Postal_and_Courier_Office_P,NAM IS NULL OR NAM = '',4
+BB0050_Bank_P,NAM IS NULL OR NAM = '',4
+BB0060_Commercial_Accomodation_P,NAM IS NULL OR NAM = '',4
+BB0070_Market_P,NAM IS NULL OR NAM = '',4
+BB0080_Shopping_Arcade_Complex_P,NAM IS NULL OR NAM = '',4
+BB0081_Hypermarket_Supermarket_P,NAM IS NULL OR NAM = '',4
+BB0082_Retail_P,NAM IS NULL OR NAM = '',4
+BB0090_Entertainment_Centre_P,NAM IS NULL OR NAM = '',4
+BB0100_Restaurant_P,NAM IS NULL OR NAM = '',4
+BB0999_Other_Commercial_Building_P,NAM IS NULL OR NAM = '',4
+BB0010_Commercial_Building_P,NAM IS NOT NULL AND NAM <> '',2
+BB0030_Office_P,NAM IS NOT NULL AND NAM <> '',2
+BB0031_Shop_Office_Shop_House_P,NAM IS NOT NULL AND NAM <> '',2
+BB0040_Postal_and_Courier_Office_P,NAM IS NOT NULL AND NAM <> '',2
+BB0050_Bank_P,NAM IS NOT NULL AND NAM <> '',2
+BB0060_Commercial_Accomodation_P,NAM IS NOT NULL AND NAM <> '',2
+BB0070_Market_P,NAM IS NOT NULL AND NAM <> '',2
+BB0080_Shopping_Arcade_Complex_P,NAM IS NOT NULL AND NAM <> '',2
+BB0081_Hypermarket_Supermarket_P,NAM IS NOT NULL AND NAM <> '',2
+BB0082_Retail_P,NAM IS NOT NULL AND NAM <> '',2
+BB0090_Entertainment_Centre_P,NAM IS NOT NULL AND NAM <> '',2
+BB0100_Restaurant_P,NAM IS NOT NULL AND NAM <> '',2
+BB0999_Other_Commercial_Building_P,NAM IS NOT NULL AND NAM <> '',2
+BD0020_Hospital_A,NAM IS NULL OR NAM = '',3
+BD0021_Clinic_A,NAM IS NULL OR NAM = '',3
+BD0030_Fire_And_Rescue_Station_A,NAM IS NULL OR NAM = '',3
+BD0040_Police_Station_A,NAM IS NULL OR NAM = '',3
+BD0200_Training_Centre_A,NAM IS NULL OR NAM = '',3
+BD0042_Police_Cottage_and_Beat_A,NAM IS NULL OR NAM = '',3
+BD0043_Detention_Centre_A,NAM IS NULL OR NAM = '',3
+BD0045_Prison_A,NAM IS NULL OR NAM = '',3
+BD0050_Army_Camp_A,NAM IS NULL OR NAM = '',3
+BD0060_Government_Office_A,NAM IS NULL OR NAM = '',3
+BD0061_Foreign_Diplomatic_Embassy_A,NAM IS NULL OR NAM = '',3
+BD0070_Parliament_House_A,NAM IS NULL OR NAM = '',3
+BD0071_State_Assembly_House_A,NAM IS NULL OR NAM = '',3
+BD0072_Town_Hall_A,NAM IS NULL OR NAM = '',3
+BD0080_Court_A,NAM IS NULL OR NAM = '',3
+BD0090_Museum_A,NAM IS NULL OR NAM = '',3
+BD0100_Science_Centre_A,NAM IS NULL OR NAM = '',3
+BD0110_Art_Theatre_National_Theatre_A,NAM IS NULL OR NAM = '',3
+BD0120_Library_A,NAM IS NULL OR NAM = '',3
+BD0130_Memorial_A,NAM IS NULL OR NAM = '',3
+BD0140_Palace_A,NAM IS NULL OR NAM = '',3
+BD0150_Multi_Purpose_House_A,NAM IS NULL OR NAM = '',3
+BD0151_Community_Hall_A,NAM IS NULL OR NAM = '',3
+BD0152_Hostel_A,NAM IS NULL OR NAM = '',3
+BD0153_Gallery_A,NAM IS NULL OR NAM = '',3
+BD0154_Youth_Club_A,NAM IS NULL OR NAM = '',3
+BD0155_Club_House_A,NAM IS NULL OR NAM = '',3
+BD0160_Welfare_Home_A,NAM IS NULL OR NAM = '',3
+BD0161_Old_Folk_Home_A,NAM IS NULL OR NAM = '',3
+BD0162_Handicapped_Home_A,NAM IS NULL OR NAM = '',3
+BD0163_Orphanage_A,NAM IS NULL OR NAM = '',3
+BD0170_Agricultural_Station_A,NAM IS NULL OR NAM = '',3
+BD0180_Research_Station_Laboratory_A,NAM IS NULL OR NAM = '',3
+BD0999_Other_Institutional_Building_A,NAM IS NULL OR NAM = '',3
+BD0044_Rehabilitation_Centre_A,NAM IS NULL OR NAM = '',3
+BD0020_Hospital_A,NAM IS NOT NULL AND NAM <> '',2
+BD0021_Clinic_A,NAM IS NOT NULL AND NAM <> '',2
+BD0030_Fire_And_Rescue_Station_A,NAM IS NOT NULL AND NAM <> '',2
+BD0040_Police_Station_A,NAM IS NOT NULL AND NAM <> '',2
+BD0200_Training_Centre_A,NAM IS NOT NULL AND NAM <> '',2
+BD0042_Police_Cottage_and_Beat_A,NAM IS NOT NULL AND NAM <> '',2
+BD0043_Detention_Centre_A,NAM IS NOT NULL AND NAM <> '',2
+BD0045_Prison_A,NAM IS NOT NULL AND NAM <> '',2
+BD0050_Army_Camp_A,NAM IS NOT NULL AND NAM <> '',2
+BD0060_Government_Office_A,NAM IS NOT NULL AND NAM <> '',2
+BD0061_Foreign_Diplomatic_Embassy_A,NAM IS NOT NULL AND NAM <> '',2
+BD0070_Parliament_House_A,NAM IS NOT NULL AND NAM <> '',2
+BD0071_State_Assembly_House_A,NAM IS NOT NULL AND NAM <> '',2
+BD0072_Town_Hall_A,NAM IS NOT NULL AND NAM <> '',2
+BD0080_Court_A,NAM IS NOT NULL AND NAM <> '',2
+BD0090_Museum_A,NAM IS NOT NULL AND NAM <> '',2
+BD0100_Science_Centre_A,NAM IS NOT NULL AND NAM <> '',2
+BD0110_Art_Theatre_National_Theatre_A,NAM IS NOT NULL AND NAM <> '',2
+BD0120_Library_A,NAM IS NOT NULL AND NAM <> '',2
+BD0130_Memorial_A,NAM IS NOT NULL AND NAM <> '',2
+BD0140_Palace_A,NAM IS NOT NULL AND NAM <> '',2
+BD0150_Multi_Purpose_House_A,NAM IS NOT NULL AND NAM <> '',2
+BD0151_Community_Hall_A,NAM IS NOT NULL AND NAM <> '',2
+BD0152_Hostel_A,NAM IS NOT NULL AND NAM <> '',2
+BD0153_Gallery_A,NAM IS NOT NULL AND NAM <> '',2
+BD0154_Youth_Club_A,NAM IS NOT NULL AND NAM <> '',2
+BD0155_Club_House_A,NAM IS NOT NULL AND NAM <> '',2
+BD0160_Welfare_Home_A,NAM IS NOT NULL AND NAM <> '',2
+BD0161_Old_Folk_Home_A,NAM IS NOT NULL AND NAM <> '',2
+BD0162_Handicapped_Home_A,NAM IS NOT NULL AND NAM <> '',2
+BD0163_Orphanage_A,NAM IS NOT NULL AND NAM <> '',2
+BD0170_Agricultural_Station_A,NAM IS NOT NULL AND NAM <> '',2
+BD0180_Research_Station_Laboratory_A,NAM IS NOT NULL AND NAM <> '',2
+BD0999_Other_Institutional_Building_A,NAM IS NOT NULL AND NAM <> '',2
+BD0044_Rehabilitation_Centre_A,NAM IS NOT NULL AND NAM <> '',2
+BD0020_Hospital_P,NAM IS NULL OR NAM = '',4
+BD0021_Clinic_P,NAM IS NULL OR NAM = '',4
+BD0030_Fire_And_Rescue_Station_P,NAM IS NULL OR NAM = '',4
+BD0040_Police_Station_P,NAM IS NULL OR NAM = '',4
+BD0200_Training_Centre_P,NAM IS NULL OR NAM = '',4
+BD0042_Police_Cottage_and_Beat_P,NAM IS NULL OR NAM = '',4
+BD0043_Detention_Centre_P,NAM IS NULL OR NAM = '',4
+BD0045_Prison_P,NAM IS NULL OR NAM = '',4
+BD0050_Army_Camp_P,NAM IS NULL OR NAM = '',4
+BD0060_Government_Office_P,NAM IS NULL OR NAM = '',4
+BD0061_Foreign_Diplomatic_Embassy_P,NAM IS NULL OR NAM = '',4
+BD0070_Parliament_House_P,NAM IS NULL OR NAM = '',4
+BD0071_State_Assembly_House_P,NAM IS NULL OR NAM = '',4
+BD0072_Town_Hall_P,NAM IS NULL OR NAM = '',4
+BD0080_Court_P,NAM IS NULL OR NAM = '',4
+BD0090_Museum_P,NAM IS NULL OR NAM = '',4
+BD0100_Science_Centre_P,NAM IS NULL OR NAM = '',4
+BD0110_Art_Theatre_National_Theatre_P,NAM IS NULL OR NAM = '',4
+BD0120_Library_P,NAM IS NULL OR NAM = '',4
+BD0130_Memorial_P,NAM IS NULL OR NAM = '',4
+BD0140_Palace_P,NAM IS NULL OR NAM = '',4
+BD0150_Multi_Purpose_House_P,NAM IS NULL OR NAM = '',4
+BD0151_Community_Hall_P,NAM IS NULL OR NAM = '',4
+BD0152_Hostel_P,NAM IS NULL OR NAM = '',4
+BD0153_Gallery_P,NAM IS NULL OR NAM = '',4
+BD0154_Youth_Club_P,NAM IS NULL OR NAM = '',4
+BD0155_Club_House_P,NAM IS NULL OR NAM = '',4
+BD0160_Welfare_Home_P,NAM IS NULL OR NAM = '',4
+BD0161_Old_Folk_Home_P,NAM IS NULL OR NAM = '',4
+BD0162_Handicapped_Home_P,NAM IS NULL OR NAM = '',4
+BD0163_Orphanage_P,NAM IS NULL OR NAM = '',4
+BD0170_Agricultural_Station_P,NAM IS NULL OR NAM = '',4
+BD0180_Research_Station_Laboratory_P,NAM IS NULL OR NAM = '',4
+BD0999_Other_Institutional_Building_P,NAM IS NULL OR NAM = '',4
+BD0044_Rehabilitation_Centre_P,NAM IS NULL OR NAM = '',4
+BD0020_Hospital_P,NAM IS NOT NULL AND NAM <> '',2
+BD0021_Clinic_P,NAM IS NOT NULL AND NAM <> '',2
+BD0030_Fire_And_Rescue_Station_P,NAM IS NOT NULL AND NAM <> '',2
+BD0040_Police_Station_P,NAM IS NOT NULL AND NAM <> '',2
+BD0200_Training_Centre_P,NAM IS NOT NULL AND NAM <> '',2
+BD0042_Police_Cottage_and_Beat_P,NAM IS NOT NULL AND NAM <> '',2
+BD0043_Detention_Centre_P,NAM IS NOT NULL AND NAM <> '',2
+BD0045_Prison_P,NAM IS NOT NULL AND NAM <> '',2
+BD0050_Army_Camp_P,NAM IS NOT NULL AND NAM <> '',2
+BD0060_Government_Office_P,NAM IS NOT NULL AND NAM <> '',2
+BD0061_Foreign_Diplomatic_Embassy_P,NAM IS NOT NULL AND NAM <> '',2
+BD0070_Parliament_House_P,NAM IS NOT NULL AND NAM <> '',2
+BD0071_State_Assembly_House_P,NAM IS NOT NULL AND NAM <> '',2
+BD0072_Town_Hall_P,NAM IS NOT NULL AND NAM <> '',2
+BD0080_Court_P,NAM IS NOT NULL AND NAM <> '',2
+BD0090_Museum_P,NAM IS NOT NULL AND NAM <> '',2
+BD0100_Science_Centre_P,NAM IS NOT NULL AND NAM <> '',2
+BD0110_Art_Theatre_National_Theatre_P,NAM IS NOT NULL AND NAM <> '',2
+BD0120_Library_P,NAM IS NOT NULL AND NAM <> '',2
+BD0130_Memorial_P,NAM IS NOT NULL AND NAM <> '',2
+BD0140_Palace_P,NAM IS NOT NULL AND NAM <> '',2
+BD0150_Multi_Purpose_House_P,NAM IS NOT NULL AND NAM <> '',2
+BD0151_Community_Hall_P,NAM IS NOT NULL AND NAM <> '',2
+BD0152_Hostel_P,NAM IS NOT NULL AND NAM <> '',2
+BD0153_Gallery_P,NAM IS NOT NULL AND NAM <> '',2
+BD0154_Youth_Club_P,NAM IS NOT NULL AND NAM <> '',2
+BD0155_Club_House_P,NAM IS NOT NULL AND NAM <> '',2
+BD0160_Welfare_Home_P,NAM IS NOT NULL AND NAM <> '',2
+BD0161_Old_Folk_Home_P,NAM IS NOT NULL AND NAM <> '',2
+BD0162_Handicapped_Home_P,NAM IS NOT NULL AND NAM <> '',2
+BD0163_Orphanage_P,NAM IS NOT NULL AND NAM <> '',2
+BD0170_Agricultural_Station_P,NAM IS NOT NULL AND NAM <> '',2
+BD0180_Research_Station_Laboratory_P,NAM IS NOT NULL AND NAM <> '',2
+BD0999_Other_Institutional_Building_P,NAM IS NOT NULL AND NAM <> '',2
+BD0044_Rehabilitation_Centre_P,NAM IS NOT NULL AND NAM <> '',2
+BJ0010_Taxi_Terminal_Taxi_Stand_A,NAM IS NULL OR NAM = '',3
+BJ0030_Rail_Terminal_Railway_Station_A,NAM IS NULL OR NAM = '',3
+BJ0330_Petrol_Station_A,NAM IS NULL OR NAM = '',3
+BJ0370_Parking_Area_A,NAM IS NULL OR NAM = '',3
+BJ0440_Airport Terminal_A,NAM IS NULL OR NAM = '',3
+BJ0460_Public_Toilet_A,NAM IS NULL OR NAM = '',3
+BJ0010_Taxi_Terminal_Taxi_Stand_A,NAM IS NOT NULL AND NAM <> '',2
+BJ0030_Rail_Terminal_Railway_Station_A,NAM IS NOT NULL AND NAM <> '',2
+BJ0330_Petrol_Station_A,NAM IS NOT NULL AND NAM <> '',2
+BJ0370_Parking_Area_A,NAM IS NOT NULL AND NAM <> '',2
+BJ0440_Airport Terminal_A,NAM IS NOT NULL AND NAM <> '',2
+BJ0460_Public_Toilet_A,NAM IS NOT NULL AND NAM <> '',2
+BJ0010_Taxi_Terminal_Taxi_Stand_P,NAM IS NULL OR NAM = '',4
+BJ0030_Rail_Terminal_Railway_Station_P,NAM IS NULL OR NAM = '',4
+BJ0330_Petrol_Station_P,NAM IS NULL OR NAM = '',4
+BJ0370_Parking_Area_P,NAM IS NULL OR NAM = '',4
+BJ0440_Airport_Terminal_P,NAM IS NULL OR NAM = '',4
+BJ0460_Public_Toilet_P,NAM IS NULL OR NAM = '',4
+BJ0010_Taxi_Terminal_Taxi_Stand_P,NAM IS NOT NULL AND NAM <> '',2
+BJ0030_Rail_Terminal_Railway_Station_P,NAM IS NOT NULL AND NAM <> '',2
+BJ0330_Petrol_Station_P,NAM IS NOT NULL AND NAM <> '',2
+BJ0370_Parking_Area_P,NAM IS NOT NULL AND NAM <> '',2
+BJ0440_Airport_Terminal_P,NAM IS NOT NULL AND NAM <> '',2
+BJ0460_Public_Toilet_P,NAM IS NOT NULL AND NAM <> '',2
+UB0130_Very_Small_Aperture_Terminal_Station_VSAT_Station_P,,2
+UB0180_Telecommunication_Tower_P,,2
+UA0030_Power_Station_A,,3
+UA0040_Substation_A,,3
+UA0030_Power_Station_P,,3
+UA0040_Substation_P,,3
+UD0085_Oil_Derrick_P,,4
+UC0060_Reservoir_Water_Tank_A,,2
+UC0060_Reservoir_Water_Tank_P,,2
+UD0083_Oil_Tank_A,,2
+UD0093_Gas_Tank_A,,2
+UD0083_Oil_Tank_P,,2
+UD0093_Gas_Tank_P,,2
+UC0100_Suction_Tank_A,,2
+UC0100_Suction_Tank_P,,2
+HH0020_Lake_A,,0
+HH0210_Pond_A,,0
+BJ0380_Historical_Site_A,,2
+BJ0380_Historical_Site_P,,2
+UF0010_Sewage_Treatment_Plant_A,,3
+HL0010_Inland_Island_A,,4
+HL0020_Coastal_Island_A,,4
+HL0030_Offshore_Island_A,,4
+BG0010_Stadium_A,,3
+BG0020_Sport_Complex_A,,3
+BG0030_Swimming_Complex_A,,3
+BG0040_Swimming_Pool_A,,3
+BG0050_Velodrome_A,,3
+BG0060_Playground_A,,3
+BG0070_Golf_Course_A,,3
+BG0080_Polo_Field_A,,3
+BG0090_Park_A,,3
+BG0100_Theme_Park_A,,3
+BG0110_Racing_Circuit_A,,3
+BG0120_Racing_Course_A,,3
+BG0130_Golf_Driving_Range_A,,3
+BG0140_Zoo_or_Animal_Sanctuary_A,,3
+BG0180_Sport_Court_Field_A,,3
+BG0999_Other_Recreational_Building_A,,3
+BJ0030_Rail_Terminal_Railway_Station_A,NAM IS NULL AND NAM = '',2
+BJ0030_Rail_Terminal_Railway_Station_A,NAM IS NOT NULL AND NAM <> '',1
+BJ0030_Rail_Terminal_Railway_Station_P,NAM IS NULL AND NAM = '',2
+BJ0030_Rail_Terminal_Railway_Station_P,NAM IS NOT NULL AND NAM <> '',1
+ZA0070_Base_Point_P,,1
+ZA0010_Global_Navigation_Satellite_System_Station_P,,1
+ZA0050_Height_Point_P,,1
+ZA0080_International_Boundary_Marker_P,,1
+ZA0040_Trigonometry_Station_P,,1
+ZA0090_State_Boundary_Marker_P,,1
+RA0060_Cliff_Precipitous_L,,4
+DA0540_Park_Reserve_Area_L,,3
+DA0580_Forest_Reserve_Area_L,,3
+DA0600_Water_Catchment_Reserve_Area_L,,3
+DA0620_Wildlife_Reserve_Area_L,,3
+DA0700_Aquaculture_Reserve_Area_L,,3
+DA0720_Malay_Reserve_Area_L,,3
+DA0740_Government_Reserve_Area_L,,3
+DA0880_Aborigine_Reserve_Area_L,,3
+HH0042_River_Coverage_A,,1
+HE0020_Light_House_P,,1
+AB0020_Airfield_A,,1
+AB0050_Runway_A,,1
+AB0180_Taxiway_A,,1
+BH0020_Crematorium_A,NAM IS NULL OR NAM = '',3
+BH0020_Crematorium_A,NAM IS NOT NULL AND NAM <> '',2
+BH0040_Columbarium_A,NAM IS NULL OR NAM = '',3
+BH0040_Columbarium_A,NAM IS NOT NULL AND NAM <> '',2
+GD3100_Quarry_Pit_P,,1
