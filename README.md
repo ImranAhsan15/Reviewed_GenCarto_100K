@@ -37,13 +37,13 @@
 
 ## 📁 File Paths
 
-- **All necessary data**: `Z:\People\RShounok\GenCarto50K\`
+- **All necessary data**: `Z:\People\RShounok\GenCarto100K\`
 - **Testing Geodatabase Path**: `Z:\People\RShounok\GenCarto50K\GK11_JOB_327545_backup.gdb`
 - **Map Files**: `'Mapx' Directory`. I've prepared the Map files For 01_DataPrep and 08_ApplyCarto. Prepare Other themes accordingly, according to Sheet 0_MapPackageConfig.
-- **Hierarchy File**: `HierarchyAll_50K.csv`
-- **Config File**: `GenCarto100k_Config_File_v3.xlsx`
+- **Hierarchy File**: `HierarchyAll_100K.csv`
+- **Config File**: `GeneralizationRules100K.xlsx`
 - **VST Workspace**: `Z:\People\RShounok\GenCarto50K\ProductLibraryCarto.gdb`
-- **Style file for 50k**: `'Layrx_files' directory`
+- **Style file for 100k**: `'Layrx_files' directory`
 - **Layer file**: `no_outline.lyr` must be in the **same folder** as the input workspace.
 
 ---
